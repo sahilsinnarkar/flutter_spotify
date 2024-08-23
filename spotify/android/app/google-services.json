@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "335203228222",
+    "project_id": "sahil-spotify",
+    "storage_bucket": "sahil-spotify.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335203228222:android:b429c001e61af4285c4f6f",
+        "android_client_info": {
+          "package_name": "com.example.spotify"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMRZVcaY9vKFvF_gY1pmYwaCSfQ0lcon8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
