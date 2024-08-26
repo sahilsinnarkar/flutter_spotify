@@ -6,7 +6,8 @@ import 'package:spotify/data/sources/songs/song_firebase_service.dart';
 import 'package:spotify/domain/repository/auth/auth.dart';
 import 'package:spotify/domain/usecases/auth/signin.dart';
 import 'package:spotify/domain/usecases/auth/signup.dart';
-import 'package:spotify/domain/usecases/auth/song/get_news_songs.dart';
+import 'package:spotify/domain/usecases/song/get_news_songs.dart';
+import 'package:spotify/domain/usecases/song/get_play_list.dart';
 
 final sl = GetIt.instance;
 
@@ -39,9 +40,9 @@ Future<void> initializeDependencies() async {
     GetNewsSongsUseCase(),
   );
 
-//  sl.registerSingleton<GetPlayListUseCase>(
-//   GetPlayListUseCase()
-//  );
+ sl.registerSingleton<GetPlaylistUseCase>(
+  GetPlaylistUseCase()
+ );
 
 //  sl.registerSingleton<AddOrRemoveFavoriteSongUseCase>(
 //   AddOrRemoveFavoriteSongUseCase()

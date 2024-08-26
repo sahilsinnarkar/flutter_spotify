@@ -1,6 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:get_it/get_it.dart';
-import 'package:spotify/domain/usecases/auth/song/get_news_songs.dart';
+import 'package:spotify/domain/usecases/song/get_news_songs.dart';
 import 'package:spotify/presentation/home/bloc/news_songs_state.dart';
 
 class NewsSongsCubit extends Cubit<NewsSongsState> {
